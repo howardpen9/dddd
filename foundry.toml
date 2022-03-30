@@ -4,7 +4,7 @@ src = 'src'
 test = 'test'
 out = 'out'
 libs = ['lib']
-# remappings = []
+remappings = ["@openzeppelin/=lib/openzeppelin-contracts/"]   # a list of remappings
 libraries = []
 cache = true
 force = false
@@ -29,6 +29,10 @@ block_base_fee_per_gas = 0
 block_coinbase = '0x0000000000000000000000000000000000000000'
 block_timestamp = 0
 block_difficulty = 0
+
+gas_reports = ["*"]
+
+
 
 
 ## !! Environment Variables !! ##
